@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <!-- My Appontlist button -->
+    <style name="cardButton" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">20dp</item>
+        <item name="android:insetLeft">0sp</item>
+        <item name="android:insetTop">0sp</item>
+        <item name="android:insetRight">0sp</item>
+        <item name="android:insetBottom">0sp</item>
+        <item name="android:textColor">#F5F5F5</item>
+        <item name="iconPadding">0dp</item>
+        <item name="elevation">5dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+    </style>
+
+
+    <!--  search UI -->
+    <style name="CommonSearchInput" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:textColorHint">@color/grey_sahde</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="hintTextColor">@color/white</item>
+        <item name="boxStrokeColor">@color/grey_sahde</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="iconTint">@color/grey_sahde</item>
+    </style>
+
+
+    <!--t TextEditext -->
+    <style name="CoomonSearchTextEdit" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/grey_sahde</item>
+        <item name="android:textColorHint">@color/grey_sahde</item>
+        <item name="android:textSize">16sp</item>
+        <item name="boxStrokeColor">@color/grey_sahde</item>
+        <item name="android:height">55dp</item>
+
+
+        <item name="android:textCursorDrawable">@color/grey_sahde</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,78 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.02" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.01" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.99" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutSearch"
+        style="@style/CommonSearchInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+
+        android:drawableTint="@color/white"
+        app:endIconMode="custom"
+        app:endIconTint="@color/grey_sahde"
+        app:layout_constraintBottom_toTopOf="@+id/guideline68"
+        app:layout_constraintEnd_toStartOf="@+id/guideline62"
+        app:layout_constraintStart_toStartOf="@+id/guideline61"
+        app:layout_constraintTop_toTopOf="@+id/guideline52"
+        app:startIconDrawable="@drawable/ic_baseline_search_24"
+        app:startIconTint="@color/grey_sahde">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtTextCommon"
+            style="@style/CoomonSearchTextEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search"
+            android:inputType="text"
+            android:longClickable="false"
+            android:textSize="14sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.98" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

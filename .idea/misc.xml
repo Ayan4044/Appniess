@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Workspace/Android/Appniess/app/src/main/res/drawable/ic_message.xml" value="0.3445" />
+        <entry key="..\:/Workspace/Android/Appniess/app/src/main/res/drawable/ic_phonecall.xml" value="0.3445" />
+        <entry key="..\:/Workspace/Android/Appniess/app/src/main/res/layout/activity_main.xml" value="0.3703125" />
+        <entry key="..\:/Workspace/Android/Appniess/app/src/main/res/layout/card_layout.xml" value="0.3646153846153846" />
+        <entry key="..\:/Workspace/Android/Appniess/app/src/main/res/layout/content_main.xml" value="0.3703125" />
+        <entry key="..\:/Workspace/Android/Appniess/app/src/main/res/layout/fragment_first.xml" value="0.3703125" />
+        <entry key="..\:/Workspace/Android/Appniess/app/src/main/res/layout/fragment_second.xml" value="0.3703125" />
+        <entry key="..\:/Workspace/Android/Appniess/app/src/main/res/layout/layout_search.xml" value="0.3692708333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
