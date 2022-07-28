@@ -76,7 +76,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline39" />
 
     <TextView
-        android:id="@+id/textViewphone"
+        android:id="@+id/textviewdeisgnation"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="TextView"

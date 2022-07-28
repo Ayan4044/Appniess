@@ -45,7 +45,7 @@ class ContactListRecyclerAdapter ( val context: Context,val dataset: ArrayList<H
 
     class ContactAdapter(inflate: View, ItemClickListener: OnItemClickListener?): RecyclerView.ViewHolder(inflate){
         var textViewName = inflate.findViewById<TextView>(R.id.textViewName)
-        var textPhone = inflate.findViewById<TextView>(R.id.textViewphone)
+        var textviewDesignation = inflate.findViewById<TextView>(R.id.textviewdeisgnation)
 
         var buttonCall: ImageView = inflate.findViewById(R.id.buttoncall)
 
@@ -77,7 +77,7 @@ class ContactListRecyclerAdapter ( val context: Context,val dataset: ArrayList<H
     override fun onBindViewHolder(holder: ContactListRecyclerAdapter.ContactAdapter, position: Int) {
         val distItem = contactFilterList[position]
         holder.textViewName.text = distItem.contactName
-        holder.textPhone.text = distItem.contactNumber
+        holder.textviewDesignation.text = distItem.designationName
     }
 
     fun returnNewList():ArrayList<HeirarchyList> = contactFilterList
